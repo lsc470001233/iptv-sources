@@ -6,8 +6,8 @@
 // GitHub 仓库配置
 const GITHUB_CONFIG = {
   owner: 'lsc470001233',  // 替换为你的 GitHub 用户名
-  repo: 'iptv-sources',                   // 替换为你的仓库名
-  branch: 'main'                   // 分支名
+  repo: 'iptv-sources',   // 替换为你的仓库名
+  branch: 'main'          // 分支名
 };
 
 // 构建 GitHub Raw 文件 URL
@@ -257,15 +257,15 @@ async function handleOptions(request) {
   });
 }
 
-// 主入口
-addEventListener('fetch', event => {
-  const request = event.request;
-  
-  if (request.method === 'OPTIONS') {
-    event.respondWith(handleOptions(request));
-  } else if (request.method === 'GET') {
-    event.respondWith(handleRequest(request));
-  } else {
-    event.respondWith(new Response('Method Not Allowed', { status: 405 }));
+// ES Modules 导出（Cloudflare Workers 新版本要求）
+export default {
+  async fetch(request, env, ctx) {
+    if (request.method === 'OPTIONS') {
+      return handleOptions(request);
+    } else if (request.method === 'GET') {
+      return handleRequest(request);
+    } else {
+      return new Response('Method Not Allowed', { status: 405 });
+    }
   }
-});
+};
