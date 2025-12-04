@@ -101,18 +101,15 @@ CCTV风云足球,https://epg.pw/stream/ac8062ec9484078061d3bef507c15a423ac57ae41
 鳳凰衛視中文台,http://bxtv.3a.ink/api.php?id=fhzw
 鳳凰衛視資訊台,http://bxtv.3a.ink/api.php?id=fhzx
 鳳凰衛視香港台,http://bxtv.3a.ink/api.php?id=fhhk
-
-凤凰资讯1,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
-凤凰资讯2,https://pull-f5-spe.ixigua.com/yeslivetv.com/303328069-581799927/index.m3u8
-凤凰资讯3,https://k44991.kylintv.tv/live/pxinhd_iphone.m3u8
-
-凤凰中文1,http://125.122.219.177:55555/udp/233.50.200.191:5140
+凤凰资讯1,http://218.104.239.114:9901/tsfile/live/1012_1.m3u8?key=txiptv
+凤凰资讯2,http://58.19.180.108:9981/stream/channelid/708272803?profile=pass
+凤凰资讯3,http://203.205.191.53/qctv.fengshows.cn/live/0701pin72.flv
+凤凰中文1,http://iptv.4666888.xyz/iptv.php?id=20063
 凤凰中文2,http://183.3.202.19:2380/hw1live.rxip.sc96655.com.huan.tv/live/test1_4000.m3u8
 凤凰中文3,http://47.108.29.179:8888/edge-cache02.live3.omd.sc96655.com/live/test1_4000.m3u8
-
-凤凰卫视1,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
-凤凰卫视2,http://grandprix2023.asuscomm.com:8892/bysid/85.m3u8
-凤凰卫视3,http://210.210.155.35/uq2663/h/h157/index2.m3u8
+凤凰卫视1,http://205.185.120.57:8081/channel/n7addc3c1/index.m3u8
+凤凰卫视2,https://stream1.freetv.fun/e6886dbde2158fbb51da8cd6db21e2bb5fb68f4e5aa4db51e3589f30c20a13d8.m3u8
+凤凰卫视3,http://50.7.234.10:8278/phoenixtv_hd/playlist.m3u8?tid=MF6F2163882521638825&ct=19249&tsum=2375037c2689c4190d14c8a52bc35c83
 
 卫视频道,#genre#
 安徽卫视,http://39.164.160.249:9901/tsfile/live/0130_1.m3u8
