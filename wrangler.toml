@@ -1,7 +1,7 @@
 # Cloudflare Worker 配置文件
 # 用于部署 IPTV 直播源服务
 
-name = "iptv4-worker"
+name = "iptv-sources"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
